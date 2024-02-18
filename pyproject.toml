@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "NASA NeoWs (Near Earth Object Web Service)"
+name = "NASA NeoWs - Near Earth Object Web Service"
 authors = [
     {name = "Tulus Daniel Simatupang", email = "tdsimatupang@gmail.com"},
 ]
