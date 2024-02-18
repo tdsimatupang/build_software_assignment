@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "NASA NeoWs (Near Earth Object Web Service)"
+name = "Asteroids_NeoWs"
 authors = [
     {name = "Tulus Daniel Simatupang", email = "tdsimatupang@gmail.com"},
 ]
@@ -19,3 +19,6 @@ readme = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
+
+[tool.hatchling]
+only_include = ["src", "README.md", "LICENSE"]
