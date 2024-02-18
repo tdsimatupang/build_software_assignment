@@ -19,3 +19,6 @@ readme = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
+
+[tool.hatchling]
+only_include = ["src", "README.md", "LICENSE"]
