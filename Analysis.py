@@ -168,13 +168,12 @@ class Analysis():
         -------
         fig : matplotlib.Figure
         """
-        # Implement your plotting here
-        # For now, let's just create an empty figure
+        # Implement the plotting here
         fig = plt.figure()
         title = self.config.get('figure_title', 'Default Title')
         plt.title(title)
-        plt.xlabel(self.config.get('x_axis_title', 'Default X-axis Title'))  # handle missing x_axis_title
-        plt.ylabel(self.config.get('y_axis_title', 'Default Y-axis Title'))  # handle missing y_axis_title
+        plt.xlabel(self.config.get('x_axis_title', 'Default X-axis Title'))  
+        plt.ylabel(self.config.get('y_axis_title', 'Default Y-axis Title'))
         if save_path is not None:
             plt.savefig(save_path)
         return fig

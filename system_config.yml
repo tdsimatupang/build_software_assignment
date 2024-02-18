@@ -5,7 +5,6 @@ plot_config:
   xlabel: Estimated Diameter (meters)
   ylabel: Potentially Hazardous
 
-# this is a comment
 columns:
   - estimated_diameter
   - potentially_hazardous

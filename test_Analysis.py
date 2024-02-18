@@ -1,5 +1,5 @@
 import pytest
-from Analysis import Analysis  # replace 'your_script' with the name of your script
+from Analysis import Analysis
 
 def test_init():
     analysis = Analysis('system_config.yml')
@@ -30,5 +30,3 @@ def test_notify_done():
     analysis.load_data()
     results = analysis.compute_analysis()
     analysis.notify_done("Analysis complete!")
-    # This is a bit tricky to test without a mock notification system
-    # For now, we'll assume it's working if no error is thrown
