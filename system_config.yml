@@ -1,0 +1,11 @@
+dataset: "https://api.nasa.gov/neo/rest/v1/feed"
+
+plot_config:
+  title: NeoWs (Near Earth Object Web Service)
+  xlabel: Estimated Diameter (meters)
+  ylabel: Potentially Hazardous
+
+# this is a comment
+columns:
+  - estimated_diameter
+  - potentially_hazardous

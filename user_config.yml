@@ -1,0 +1,7 @@
+plot_color_est_diam: blue
+plot_color_potent_hazard: red
+page_size: letter
+
+columns:
+  - estimated_diameter
+  - potentially_hazardous

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "NASA NeoWs (Near Earth Object Web Service)"
+authors = [
+    {name = "Tulus Daniel Simatupang", email = "tdsimatupang@gmail.com"},
+]
+description = "Searching for Asteroids based on their closest approach date to Earth"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "pyyaml",
+    "matplotlib",
+    "plyer"]
+requires-python = ">=3.11.0"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
